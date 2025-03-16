@@ -24,21 +24,42 @@ header {
 main {
   padding: 20px;
   display: flex;
-  flex-wrap: wrap; /* Allow items to wrap to the next line */
-  justify-content: center; /* Center items horizontally */
-  gap: 20px; /* Spacing between items */
+  flex-direction: column; /* Stack sections vertically */
+  align-items: center; /* Center sections horizontally */
   max-width: 1200px; /* Limit maximum width */
   width: 100%;
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+section {
+  width: 100%; /* Each section takes up full width */
+  margin-bottom: 20px; /* Add spacing between sections */
+  text-align: center; /* Center titles and descriptions */
+}
+
+.section-description { /* Style for the description */
+  font-style: italic;
+  color: #888;
+  margin-top: -10px; /* Adjust spacing above */
+  margin-bottom: 15px; /* Adjust spacing below */
+}
+
+#consonant-cards,
+#vowel-cards {
+  display: flex; /* Arrange cards in a row */
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  justify-content: center; /* Center cards horizontally */
+  gap: 20px; /* Spacing between cards */
 }
 
 .letter-card {
   background-color: #fffaf0; /* FloralWhite - soft card */
   border: 2px solid #ffb6c1; /* LightPink - gentle border */
   border-radius: 15px; /* More rounded corners */
-  padding: 20px;
+  padding: 5px;
   font-family: "Khmer", sans-serif;
   text-align: center;
-  width: 150px; /* Adjust as needed */
+  width: 200px; /* Adjust as needed */
   height: 200px; /* Adjust as needed */
   display: flex;
   flex-direction: column;
@@ -47,6 +68,7 @@ main {
   cursor: pointer; /* Change cursor on hover */
   transition: transform 0.2s ease; /* Smooth scaling */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  box-sizing: border-box; /* Include padding and border in width */
 }
 
 .letter-card:hover {
@@ -64,9 +86,10 @@ main {
 
 .letter-card img {
   max-width: 80%; /* Ensure image fits within the card */
-  max-height: 100px; /* Limit image height */
+  max-height: 120px; /* Limit image height */
   margin-bottom: 10px;
-  border-radius: 10px; /* Round image corners */
+  border-radius: 5px; /* Round image corners */
+
 }
 
 .letter-card p {
@@ -77,20 +100,22 @@ main {
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .letter-card {
-      width: 120px;
-      height: 180px;
+    width: 45%;  /* Two cards per row on smaller screens */
+    min-width: 120px; /* Minimum card width */
+    height: 180px;
   }
 }
 
 @media (max-width: 480px) {
   .letter-card {
-      width: 100px;
-      height: 160px;
+    width: 100%; /* One card per row on even smaller screens */
+    height: 160px;
   }
   .letter-card h2 {
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
 }
+
 /* ... (previous styles) ... */
 
 .text-container {
@@ -106,6 +131,8 @@ main {
   font-weight: bold;
   color: #666; /* Darker gray for English name */
   margin: 0; /* Remove default margins */
+  position: relative; /* Ensure stacking context */
+  z-index: 1; /* Ensure English name is below */
 }
 
 .khmer-translation {
@@ -132,11 +159,11 @@ main {
 }
 
 footer {
-    background-color: #ff69b4;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: auto;
-    width: 100%;
-    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow on top */
+  background-color: #ff69b4;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+  width: 100%;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow on top */
 }
