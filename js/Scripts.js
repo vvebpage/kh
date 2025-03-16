@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Data (same as before, with translations)
     const alphabetData = [
-        { letter: 'ក', animal: 'កង្កែប', image: 'https://png.pngtree.com/png-vector/20240122/ourmid/pngtree-green-toad-frog-png-image_11454296.png', sound: 'sounds/1.mp3', translation: 'កែវសំរាប់ផឹកទឹក' },
+        { letter: 'ក', animal: 'កង្កែប', image: 'https://png.pngtree.com/png-vector/20240122/ourmid/pngtree-green-toad-frog-png-image_11454296.png', sound: 'sounds/1.mp3', translation: 'សត្វកង្កែបពណ៌បៃតង' },
         { letter: 'ខ', animal: 'ខ្នើយ', image: 'https://vvebpage.github.io/kh/images/pillow.png', sound: 'sounds/2.mp3', translation: 'សំរាប់កើយក្បាល' },
         { letter: 'គ', animal: 'គោម', image: 'https://vvebpage.github.io/kh/images/lamp.png', sound: 'sounds/3.mp3', translation: 'ចង្កៀងដាក់បំភ្លឺ' },
         { letter: 'ឃ', animal: 'ឃ្លោក ', image: 'https://vvebpage.github.io/kh/images/gourd.png', sound: 'sounds/4.mp3', translation: 'ផ្លែឃ្លោកសំរាប់ដាំស្ល' },
