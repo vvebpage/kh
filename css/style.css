@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+  font-family: "Khmer", sans-serif;
+  background-color: #ffe4e1; /* MistyRose - soft background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  min-height: 100vh; /* Ensure full viewport height */
+}
+
+header {
+  background-color: #ff69b4; /* HotPink - vibrant header */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Include padding in width */
+  border-bottom: 5px solid #f06292; /* Darker pink border */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for better readability */
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Center items horizontally */
+  gap: 20px; /* Spacing between items */
+  max-width: 1200px; /* Limit maximum width */
+  width: 100%;
+}
+
+.letter-card {
+  background-color: #fffaf0; /* FloralWhite - soft card */
+  border: 2px solid #ffb6c1; /* LightPink - gentle border */
+  border-radius: 15px; /* More rounded corners */
+  padding: 20px;
+  font-family: "Khmer", sans-serif;
+  text-align: center;
+  width: 150px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribute space */
+  align-items: center;
+  cursor: pointer; /* Change cursor on hover */
+  transition: transform 0.2s ease; /* Smooth scaling */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.letter-card:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  border-color: #ff69b4; /* Use header color on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.letter-card h2 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #e91e63; /* Pink Accent for letter */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.letter-card img {
+  max-width: 80%; /* Ensure image fits within the card */
+  max-height: 100px; /* Limit image height */
+  margin-bottom: 10px;
+  border-radius: 10px; /* Round image corners */
+}
+
+.letter-card p {
+  font-weight: bold;
+  color: #777; /* Darker gray for object name */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .letter-card {
+      width: 120px;
+      height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .letter-card {
+      width: 100px;
+      height: 160px;
+  }
+  .letter-card h2 {
+      font-size: 1.5em;
+  }
+}
+/* ... (previous styles) ... */
+
+.text-container {
+  position: absolute; /* Important for absolute positioning */
+  width: 100%; /* Take up full width of the card */
+  height: auto; /* Adjust height as needed */
+  margin-top: 50px;
+}
+
+.english-name {
+  font-family: "Khmer", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #666; /* Darker gray for English name */
+  margin: 0; /* Remove default margins */
+}
+
+.khmer-translation {
+  font-family: "Khmer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: absolute; /* Position over the English text */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  border: #ffb6c1; /* light pink border */
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1em; /* Adjust as needed */
+  color: #000; /* Black text */
+  margin: 0;
+  z-index: 2; /* Ensure it's above the English text */
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+}
+
+footer {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    width: 100%;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow on top */
+}
