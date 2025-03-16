@@ -85,9 +85,10 @@ section {
 }
 
 .letter-card img {
-  max-width: 80%; /* Ensure image fits within the card */
+  max-width: 100%; /* Ensure image fits within the card */
   max-height: 120px; /* Limit image height */
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  margin-bottom: 15px;
   border-radius: 5px; /* Round image corners */
 
 }
@@ -122,14 +123,16 @@ section {
   position: absolute; /* Important for absolute positioning */
   width: 100%; /* Take up full width of the card */
   height: auto; /* Adjust height as needed */
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .english-name {
   font-family: "Khmer", sans-serif;
+  font-size: 20px;
   font-style: normal;
   font-weight: bold;
-  color: #666; /* Darker gray for English name */
+  border: #000;
+  color: #ffffff; /* Darker gray for English name */
   margin: 0; /* Remove default margins */
   position: relative; /* Ensure stacking context */
   z-index: 1; /* Ensure English name is below */
@@ -137,8 +140,9 @@ section {
 
 .khmer-translation {
   font-family: "Khmer", sans-serif;
-  font-weight: 400;
+  font-size: 20px;
   font-style: normal;
+  font-weight: bold;
   position: absolute; /* Position over the English text */
   top: 0;
   left: 0;
