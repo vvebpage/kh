@@ -5,34 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ព្យញ្ជនៈខ្មែរ</title>
     <link rel="icon" type="image/svg+xml" href="images/A.png"> <!-- Modern browsers -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Khmer&display=swap" rel="stylesheet">
+     <!-- No more <link rel="preload"> tags here -->
 </head>
 <body>
 
     <header>
-        <h1>សប្បាយរៀនជាមួយព្យញ្ជនៈខ្មែរ</h1>
+        <h1 id="header-title">ព្យញ្ជនៈ ស្រៈ និង លេខខ្មែរ</h1>
+        <div class="header-details">
+            <p class="header-description">A complete reference for understanding and using the Khmer alphabet, including vowel notations and numerical systems.</p>
+            <small class="header-metadata">By Mr.VV | Last Updated: January 15, 2025</small>
+        </div>
     </header>
 
-    <main>
-        <section id="consonant-container">
-            <h2>ព្យញ្ជនៈ</h2>
-            <p class="section-description">រៀនព្យញ្ជនៈខ្មែរ!</p> <!-- Added description -->
-            <div id="consonant-cards"></div>
-        </section>
+    <div id="content-wrapper">
+        <main>
+            <section class="section">
+                <h2>តារាងព្យញ្ជនៈខ្មែរ (Khmer Alphabet)</h2>
+                <div class="character-grid" id="character-grid-alphabet"></div>
+            </section>
 
-        <section id="vowel-container">
-            <h2>ស្រៈ</h2>
-            <p class="section-description">ស្វែងយល់ពីស្រៈខ្មែរ!</p> <!-- Added description -->
-            <div id="vowel-cards"></div>
-        </section>
-    </main>
+            <section class="section">
+                <h2>តារាងស្រៈខ្មែរ (Khmer Vowels)</h2>
+                <div id="character-grid-vowels" class="character-grid"></div>
+            </section>
+
+            <section class="section">
+                <h2>លេខខ្មែរ (Khmer Numbers)</h2>
+                <div id="character-grid-numbers" class="character-grid"></div>
+            </section>
+
+        </main>
+
+        <aside id="character-display">
+            <h2 id="displayed-character"></h2>
+            <img id="displayed-image" src="" alt="" width="480">  <!-- Adjust width as needed -->
+        </aside>
+    </div>
+
     <footer>
-        <p>© 2025 ហ្គេមអក្ខរក្រមរបស់ខ្ញុំ។ រក្សាសិទ្ធិគ្រប់យ៉ាង.</p>
+        <p>© 2024 Khmer Alphabet</p>
     </footer>
-    <script src="js/scripts.js"></script>
-
+    <script src="js/Script.js"></script>
 </body>
 </html>
