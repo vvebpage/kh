@@ -5,11 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ព្យញ្ជនៈខ្មែរ</title>
     <link rel="icon" type="image/svg+xml" href="images/A.png"> <!-- Modern browsers -->
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Khmer&display=swap" rel="stylesheet">
      <!-- No more <link rel="preload"> tags here -->
+    <!-- PC Stylesheet -->
+    <link rel="stylesheet" href="css/PC.css" media="screen and (min-width: 768px)">
+
+    <!-- Mobile Stylesheet -->
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 767px)">
+
+          <!-- Youtube video link -->
+    <meta property="og:video" content="" id="meta-youtube-video">
+    <meta property="og:video:secure_url" content="" id="meta-youtube-video-secure">
+    <meta property="og:video:type" content="text/html">
+    <meta property="og:video:width" content="480">
+    <meta property="og:video:height" content="270">
+    <!-- /Youtube video link -->
 </head>
 <body>
 
@@ -42,8 +54,10 @@
 
         <aside id="character-display">
             <h2 id="displayed-character"></h2>
-            <img id="displayed-image" src="" alt="" width="480">  <!-- Adjust width as needed -->
-            <div id="youtube-video-container"></div>
+            <div id="displayed-image-container">
+               <img id="displayed-image" src="" alt="" width="480">  <!-- Adjust width as needed -->
+               <button id="play-video-button">Play Video</button>
+            </div>
         </aside>
     </div>
 
