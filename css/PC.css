@@ -60,7 +60,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 900px;
+  max-width: 1200px;
   width: 100%;
   box-sizing: border-box;
   border-radius: 15px; /* Rounded corners for main */
@@ -219,8 +219,8 @@ footer {
 }
 
 #displayed-image {
-  float: left;
-  margin-right: 30px; /* Add margin to separate image and text */
+  float: right;
+  margin-right: 5px; /* Add margin to separate image and text */
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -244,3 +244,25 @@ footer {
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+      /* Button Styles */
+      .toggle-button {
+        background-color: var(--color-primary);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px;
+        font-family:  "Khmer", 'Comic Sans MS', 'Chalkboard SE', cursive;
+        transition: background-color 0.3s ease;
+    }
+
+    .toggle-button:hover {
+        background-color: var(--color-secondary);
+    }
+
+    .character-image {
+      width: 200px;  /* Set width for PC */
+      height: 142px;  /* Set height for PC */
+  }
