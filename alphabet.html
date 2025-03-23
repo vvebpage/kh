@@ -29,15 +29,20 @@
         <h1 id="header-title">អក្សរខ្មែរ និង អក្សរអង់គ្លេស</h1>
         <div class="header-details">
             <p class="header-description">រៀនអក្សរ ព្យញ្ជនៈ ស្រៈ លេខ ខ្មែរ និង អង់គ្លេស</p>
-            <small class="header-metadata">By Mr.VV | Last Updated: January 15, 2025</small>
+            <small class="header-metadata">
+            By mr.veasna |
+            ឆានែល youtube: 
+            <a href="https://www.youtube.com/@vungveasna.channel" target="_blank" rel="noopener noreferrer">Veasna Channel</a>
+        </small>
+    </div>
         </div>
     </header>
     <main>
         <div style="text-align: center;">
-          <button id="toggle-khmer" class="toggle-button">Show Khmer</button>
-          <button id="toggle-english" class="toggle-button">Show English</button>
-        </div>
-
+            <button id="toggle-khmer" class="toggle-button">Show Khmer</button>
+            <button id="toggle-english" class="toggle-button">Show English</button>
+            <button id="toggle-coloring" class="toggle-button">Coloring Books</button>
+          </div>
           <section class="section" id="khmer-section">
               <h2>តារាងព្យញ្ជនៈខ្មែរ (Khmer Alphabet)</h2>
               <div class="character-grid" id="character-grid-alphabet"></div>
@@ -52,18 +57,25 @@
           <section class="section" id="english-section" style="display: none;">
               <h2>English Alphabet</h2>
               <div class="character-grid" id="character-grid-english"></div>
+              <h2>English N</h2>
+              <div class="character-grid" id="character-grid-engnum"></div>
           </section>
-
+          <section class="section" id="coloring-section" style="display: none;">
+            <h2>Coloring Books</h2>
+            <div id="coloring-book-grid">
+                <!-- All the dynamic content will be injected here by JavaScript -->
+            </div>
+          </section>
       </main>
 
-        <aside id="character-display">
-            <h2 id="displayed-character"></h2>
-            <div id="displayed-image-container">
-               <img id="displayed-image" src="" alt="" width="300">  <!-- Adjust width as needed -->
-               <button id="play-video-button">Play Video</button>
-            </div>
-        </aside>
-    </div>
+     <aside id="character-display">
+        <h2 id="displayed-character"></h2>
+        <div id="displayed-image-container">
+           <img id="displayed-image" src="" alt="">
+           <button id="play-video-button">Play Video</button>
+        </div>
+        <div id="youtube-video-container"></div>
+     </aside>
 
     <footer>
         <p>© 2025 Khmer Alphabet</p>
