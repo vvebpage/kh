@@ -81,32 +81,45 @@ const khmerData = {
 // Data for English Alphabet
 const englishData = {
     alphabet: [
-        { char: 'A', sound: 'a', image: 'images/A.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'B', sound: 'b', image: 'images/B.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'C', sound: 'c', image: 'images/C.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'D', sound: 'd', image: 'images/D.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'E', sound: 'e', image: 'images/E.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'F', sound: 'f', image: 'images/F.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'G', sound: 'g', image: 'images/G.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'H', sound: 'h', image: 'images/H.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'I', sound: 'i', image: 'images/I.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'J', sound: 'j', image: 'images/J.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'K', sound: 'k', image: 'images/K.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'L', sound: 'l', image: 'images/L.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'M', sound: 'm', image: 'images/M.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'N', sound: 'n', image: 'images/N.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'O', sound: 'o', image: 'images/O.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'P', sound: 'p', image: 'images/P.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'Q', sound: 'q', image: 'images/Q.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'R', sound: 'r', image: 'images/R.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'S', sound: 's', image: 'images/S.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'T', sound: 't', image: 'images/T.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'U', sound: 'u', image: 'images/U.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'V', sound: 'v', image: 'images/V.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'W', sound: 'w', image: 'images/W.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'X', sound: 'x', image: 'images/X.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'Y', sound: 'y', image: 'images/Y.png', youtubeId: null, startTime: 0, endTime: 5 },
-        { char: 'Z', sound: 'z', image: 'images/Z.png', youtubeId: null, startTime: 0, endTime: 5 }
+        { char: 'A', sound: 'a', image: 'images/ENG/A.jpg', youtubeId: 'dQw4w9WgXcQ', startTime: 0, endTime: 5 },
+        { char: 'B', sound: 'b', image: 'images/ENG/B.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'C', sound: 'c', image: 'images/ENG/C.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'D', sound: 'd', image: 'images/ENG/D.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'E', sound: 'e', image: 'images/ENG/E.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'F', sound: 'f', image: 'images/ENG/F.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'G', sound: 'g', image: 'images/ENG/G.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'H', sound: 'h', image: 'images/ENG/H.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'I', sound: 'i', image: 'images/ENG/I.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'J', sound: 'j', image: 'images/ENG/J.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'K', sound: 'k', image: 'images/ENG/K.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'L', sound: 'l', image: 'images/ENG/L.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'M', sound: 'm', image: 'images/ENG/M.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'N', sound: 'n', image: 'images/ENG/N.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'O', sound: 'o', image: 'images/ENG/O.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'P', sound: 'p', image: 'images/ENG/P.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'Q', sound: 'q', image: 'images/ENG/Q.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'R', sound: 'r', image: 'images/ENG/R.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'S', sound: 's', image: 'images/ENG/S.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'T', sound: 't', image: 'images/ENG/T.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'U', sound: 'u', image: 'images/ENG/U.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'V', sound: 'v', image: 'images/ENG/V.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'W', sound: 'w', image: 'images/ENG/W.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'X', sound: 'x', image: 'images/ENG/X.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'Y', sound: 'y', image: 'images/ENG/Y.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: 'Z', sound: 'z', image: 'images/ENG/Z.jpg', youtubeId: null, startTime: 0, endTime: 5 }
+    ],
+    engnum: [
+        { char: '0', sound: 'j', image: 'images/ENG/J.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: '1', sound: 'a', image: 'images/ENG/A.jpg', youtubeId: 'dQw4w9WgXcQ', startTime: 0, endTime: 5 },
+        { char: '2', sound: 'b', image: 'images/ENG/B.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: '3', sound: 'c', image: 'images/ENG/C.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: '4', sound: 'd', image: 'images/ENG/D.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: '5', sound: 'e', image: 'images/ENG/E.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: '6', sound: 'f', image: 'images/ENG/F.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: '7', sound: 'g', image: 'images/ENG/G.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: '8', sound: 'h', image: 'images/ENG/H.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+        { char: '9', sound: 'i', image: 'images/ENG/I.jpg', youtubeId: null, startTime: 0, endTime: 5 },
+
     ]
 };
 
@@ -176,36 +189,63 @@ function playSound(character) {
 }
 
 function displayCharacter(character, imageSrc, youtubeId) {
-    document.getElementById('displayed-character').textContent = character;
+    const displayedCharacter = document.getElementById('displayed-character');
+    const displayedImage = document.getElementById('displayed-image');
+    const displayedImageContainer = document.getElementById('displayed-image-container'); // ADD THIS LINE (You need this container in your HTML)
+    const videoContainer = document.getElementById('youtube-video-container'); // Ensure this container exists
 
-    const videoButton = document.getElementById('play-video-button');
+    displayedCharacter.textContent = character;
+    displayedImage.src = imageSrc;
+
     if (youtubeId) {
-        videoButton.style.display = 'block'; // Show the button
-        videoButton.onclick = () => {
-           window.open(`https://www.youtube.com/watch?v=${youtubeId}`, '_blank');
-        };
+        // Create the iframe for the embedded YouTube video
+        const iframe = document.createElement('iframe');
+        iframe.width = "640";
+        iframe.height = "450";
+        iframe.src = `https://www.youtube.com/embed/${youtubeId}`;
+        iframe.title = "YouTube video player";
+        iframe.frameborder = "0";
+        iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+        iframe.allowFullscreen = true;
+
+        //  This block now handles the image and video swap.
+        displayedImageContainer.onclick = () => {
+            // Hide the image
+            displayedImage.style.display = 'none';
+
+            //Move video container to be on top of the now hidden image.
+            displayedImageContainer.appendChild(iframe);
+
+            // Ensure videoContainer exists and is visible
+            videoContainer.style.display = 'block';
+
+            // Position relative enables absolute positioning of elements within
+            displayedImageContainer.style.position = "relative";
+            };
+
+            displayedImageContainer.style.position = "relative";
+            // Display the image initially
+            displayedImage.src = imageSrc;
+            displayedImage.style.display = 'block';
+
+            videoContainer.innerHTML = ""; // Clear content
+            videoContainer.style.display = "none"; // Hide container, because image is taking the video slot
+
+            // Clear meta elements
+            const metaVideo = document.getElementById('meta-youtube-video');
+            const metaVideoSecure = document.getElementById('meta-youtube-video-secure');
+            const videoUrl = `https://www.youtube.com/embed/${youtubeId}`;
+            metaVideo.setAttribute('content', videoUrl);
+            metaVideoSecure.setAttribute('content', videoUrl);
+
     } else {
-        videoButton.style.display = 'none'; // Hide the button if no video
-    }
-
-    document.getElementById('displayed-image').src = imageSrc;
-
-    // Get meta elements
-    const metaVideo = document.getElementById('meta-youtube-video');
-    const metaVideoSecure = document.getElementById('meta-youtube-video-secure');
-
-    if (youtubeId) {
-        const videoUrl = `https://www.youtube.com/embed/${youtubeId}`;
-
-        // Set the content of the meta elements
-        metaVideo.setAttribute('content', videoUrl);
-        metaVideoSecure.setAttribute('content', videoUrl);
-
-        const videoContainer = document.getElementById('youtube-video-container');
+        // Clear the video container and hide it
         videoContainer.innerHTML = '';
-
-    } else {
-         // Clear meta elements if no video available
+        videoContainer.style.display = 'none'; // Hide the video container
+        displayedImage.style.display = 'block'; // Ensures image is visible when no video is loaded
+        // Clear meta elements
+        const metaVideo = document.getElementById('meta-youtube-video');
+        const metaVideoSecure = document.getElementById('meta-youtube-video-secure');
         metaVideo.setAttribute('content', '');
         metaVideoSecure.setAttribute('content', '');
     }
@@ -244,25 +284,76 @@ function createCharacterGrid(sectionId, dataArray, prefix) {
 document.addEventListener('DOMContentLoaded', () => {
     const khmerSection = document.getElementById('khmer-section');
     const englishSection = document.getElementById('english-section');
+    const coloringSection = document.getElementById('coloring-section'); // Get the coloring section
+
     const toggleKhmerButton = document.getElementById('toggle-khmer');
     const toggleEnglishButton = document.getElementById('toggle-english');
+    const toggleColoringButton = document.getElementById('toggle-coloring'); // New button
+    // Add this code to run in the event
+        createColoringBooks('coloring-book-grid', coloringBookData);
 
     createCharacterGrid('character-grid-alphabet', khmerData.alphabet, 'អក្សរ');
     createCharacterGrid('character-grid-numbers', khmerData.numbers, 'លេខ');
     createCharacterGrid('character-grid-vowels', khmerData.vowels, 'ស្រៈ​ ');
-    createCharacterGrid('character-grid-english', englishData.alphabet, 'English'); // Added to show English also
+    createCharacterGrid('character-grid-english', englishData.alphabet, 'letter');
+    createCharacterGrid('character-grid-engnum', englishData.engnum, 'Number');
 
     toggleKhmerButton.addEventListener('click', () => {
         khmerSection.style.display = 'block';
         englishSection.style.display = 'none';
+        coloringSection.style.display = 'none'; // Hide the coloring books
     });
 
     toggleEnglishButton.addEventListener('click', () => {
         khmerSection.style.display = 'none';
         englishSection.style.display = 'block';
+        coloringSection.style.display = 'none';// Hide the coloring books
     });
 
-    // Initially hide Khmer and show English
+    toggleColoringButton.addEventListener('click', () => {
+        khmerSection.style.display = 'none';
+        englishSection.style.display = 'none';
+        coloringSection.style.display = 'block'; // Show the coloring books
+    });
+
+    // Initially hide Khmer and English
     khmerSection.style.display = 'none';
-    englishSection.style.display = 'block';
+    englishSection.style.display = 'none';
+    coloringSection.style.display = 'none';// Hidden on initial page load
 });
+
+
+
+const coloringBookData = [
+    {  image: 'images/coloringbook/coloring-1.jpg', downloadName: 'images/coloringbook/coloring-1.jpg' },
+    {  image: 'images/coloringbook/coloring-1.jpg', downloadName: 'images/coloringbook/coloring-1.jpg' },
+    {  image: 'images/coloringbook/coloring-1.jpg', downloadName: 'images/coloringbook/coloring-1.jpg' },
+    {  image: 'images/coloringbook/coloring-1.jpg', downloadName: 'images/coloringbook/coloring-1.jpg' },
+    {  image: 'images/coloringbook/coloring-1.jpg', downloadName: 'images/coloringbook/coloring-1.jpg' },
+    {  image: 'images/coloringbook/coloring-1.jpg', downloadName: 'images/coloringbook/coloring-1.jpg' }
+  ];
+  function createColoringBooks(sectionId, dataArray) {
+    const grid = document.getElementById(sectionId);
+    grid.innerHTML = '';
+
+    dataArray.forEach(item => {
+      const container = document.createElement('div');
+      container.style.textAlign = 'center';  // Center content
+
+        const image = document.createElement('img');
+        image.src = item.image;
+        image.alt = item.downloadName;
+        image.className = 'coloring-book-image';
+
+        const downloadLink = document.createElement('a');
+        downloadLink.href = item.image;
+        downloadLink.download = item.downloadName;  // IMPORTANT: This sets the download filename!
+        downloadLink.textContent = 'Download';
+        downloadLink.className = 'download-button';
+
+      container.appendChild(image);
+      container.appendChild(downloadLink);
+
+      grid.appendChild(container);
+    });
+}
