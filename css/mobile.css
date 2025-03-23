@@ -242,16 +242,62 @@ footer {
         background-color: var(--color-primary);
         color: white;
         border: none;
-        padding: 10px 20px;
-        border-radius: 5px;
+        padding: 5px 10px;
+        border-radius: 3px;
         cursor: pointer;
-        margin: 10px;
+        margin: 2px;
         font-family:  "Khmer", 'Comic Sans MS', 'Chalkboard SE', cursive;
         transition: background-color 0.3s ease;
     }
 
     .toggle-button:hover {
         background-color: var(--color-secondary);
+    }
+    #coloring-book-grid {
+      display: grid;         /* Use grid layout */
+      grid-template-columns: repeat(2, 1fr);  /* Create two equal columns */
+      gap: 10px;              /* Add spacing between grid items */
+      justify-content: center; /* Center the grid within its container (optional) */
+      align-items: center;
+    }
+    
+    #coloring-book-grid > div {
+        text-align: center;
+        margin: 10px;
+        position: relative;
+    }
+    
+    .coloring-book-image {
+        width: 100%;         /* Image takes full width of its column */
+        height: auto;
+        margin: 5px 0;        /* Top/bottom margin only */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        display: block;       /* Make sure it's a block-level element */
+    }
+    
+    .download-button {
+        background-color: var(--color-accent);
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        position: absolute;
+        bottom: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 10;
+    }
+    
+    /* Optional: Add a media query for smaller screens to go back to one column */
+    @media (max-width: 600px) {
+      #coloring-book-grid {
+        grid-template-columns: 1fr;  /* One column on smaller screens */
+      }
     }
     .character-image {
       /* Base styles that apply in small display resolutions*/
@@ -273,3 +319,36 @@ footer {
           height: 71px;
       }
   }    
+  .download-button {
+    background-color: var(--color-accent);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it a block element */
+    margin-top: 5px; /* Add some spacing */
+}
+
+#coloring-book-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Align items vertically */
+}
+
+#coloring-book-grid > div {
+    text-align: center; /* Center content within each div */
+    margin: 10px; /* Add some margin around each image and button */
+}
+
+.coloring-book-image {
+        width: 150px; /* Adjust as needed */
+        height: auto;
+        margin: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}  
+
