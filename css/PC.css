@@ -39,7 +39,7 @@ header {
 }
 
 .header-description {
-  font-size: 1.2em;
+  font-size: 2em;
   color: #777; /* Slightly lighter text */
   margin-bottom: 0.5em;
   line-height: 1.6;
@@ -47,7 +47,7 @@ header {
 }
 
 .header-metadata {
-  font-size: 1em;
+  font-size: 1.5em;
   color: #999;
   display: block;
   letter-spacing: 0.03em;
@@ -174,28 +174,11 @@ section {
     color: #D87093;
 }
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-  .character-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
-  .character-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .character-cell {
-    font-size: 1em; /* Adjust font size on small screens */
-  }
-}
-
 /* Footer */
 footer {
   background-color: var(--color-primary);
   color: white;
   text-align: center;
-  padding: 15px;
   margin-top: auto;
   width: 100%;
   box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
@@ -246,11 +229,11 @@ footer {
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  display: inline-block; /* Adjust width to content */
+  text-align: left;
+  display: inline-block; /* Hide initially */
   width: auto;  /* Adjust width to content */
   margin: 10px auto;
 }
-
 #character-video {
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -324,3 +307,28 @@ footer {
       width: 200px;  /* Set width for PC */
       height: 142px;  /* Set height for PC */
   }
+
+  .youtube-button {
+    background-color: #c00; /* Red */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    animation:reverse;
+  }
+  
+  .youtube-button:hover {
+    background-color: #900; /* Darker Red */
+  }
+
+  #close-button {
+    background-color: red; /* Change to your preferred color */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+      
+}
