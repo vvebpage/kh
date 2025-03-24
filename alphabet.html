@@ -32,10 +32,10 @@
             <small class="header-metadata">
             By mr.veasna |
             ឆានែល youtube: 
-            <a href="https://www.youtube.com/@vungveasna.channel" target="_blank" rel="noopener noreferrer">Veasna Channel</a>
+            <button class="youtube-button" onclick="openInNewTab('https://www.youtube.com/@vungveasna.channel')">Veasna Channel</button>
         </small>
     </div>
-        </div>
+
     </header>
     <main>
         <div style="text-align: center;">
@@ -57,28 +57,31 @@
           <section class="section" id="english-section" style="display: none;">
               <h2>English Alphabet</h2>
               <div class="character-grid" id="character-grid-english"></div>
-              <h2>English N</h2>
+              <h2>English Numbers</h2>
               <div class="character-grid" id="character-grid-engnum"></div>
           </section>
+          </main>
+          <div class="coloring-book-container">
           <section class="section" id="coloring-section" style="display: none;">
             <h2>Coloring Books</h2>
             <div id="coloring-book-grid">
                 <!-- All the dynamic content will be injected here by JavaScript -->
             </div>
           </section>
-      </main>
-
+        </div>
+    <main>
      <aside id="character-display">
         <h2 id="displayed-character"></h2>
         <div id="displayed-image-container">
-           <img id="displayed-image" src="" alt="">
+            <button id="close-button" style="display: none;">Close</button>
+            <img id="displayed-image" style="display: none;" />
            <button id="play-video-button">Play Video</button>
         </div>
         <div id="youtube-video-container"></div>
      </aside>
-
+    </main>
     <footer>
-        <p>© 2025 Khmer Alphabet</p>
+        <p>© 2025 by, vung veasna,</p>
     </footer>
     <script src="js/Script.js"></script>
 </body>
